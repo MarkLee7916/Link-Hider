@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Link Hider Options</title>
+  <base href="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no" />
+  <link rel="icon" type="image/x-icon" href="./assets/graph.svg" />
+  <link rel="stylesheet" href="options-styles.css">
+</head>
+</head>
+
+<body>
+  <div id="page">
+    <h1>Allowed Sites</h1>
+
+    <p>By default all sites have their links hidden. Enter a piece of text into the box and add it.</p>
+    <p>This will make any site with that text as part of the URL allow links.</p>
+    <p>For example, 'google' will allow links to be viewed on both 'google.com' and 'mail.google.com'.</p>
+
+    <input id="url-input" type="text" />
+    <button id="add-url">Add URL</button>
+    <button id="clear-urls">Clear All URLs</button>
+
+    <div id="allowed-sites"></div>
+  </div>
+</body>
+<script type="text/javascript" src="options.js"></script>
+
+</html>

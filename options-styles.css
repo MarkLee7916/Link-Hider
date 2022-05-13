@@ -1,0 +1,77 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  touch-action: pan-x pan-y;
+  height: 100%;
+}
+
+#page {
+  height: 95vh;
+  width: 90vw;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 5vh 5vw 0vw 5vw;
+}
+
+button {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+p {
+  font-size: 16px;
+}
+
+#add-url {
+  visibility: hidden;
+}
+
+.remove-url {
+  border: 0px;
+  background-color: white;
+}
+
+.remove-url:hover {
+  opacity: 0.5;
+  background-color: white;
+}
+
+.url-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.url-label {
+  width: 100%;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+#allowed-sites {
+  border: 2px solid black;
+  margin-top: 40px;
+}
+
+#url-input {
+  font-size: 16px;
+}
+
